@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    position: relative;
+    background-color: rgb(244, 203, 53);
+}
+.item1{
+    height: 30%;
+    /* border: 2px solid black; */
+    background-color: white;
+}
+.item2{
+    height: 70%;
+    /* background-color: yellow; */
+}
+.item3{
+    height: 66%;
+    width: 25%;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 12%;
+    top: 17%;
+    background-image: url(https://unclehenrys.co.uk/wp-content/uploads/2023/04/Coffee-pouring-min.jpeg);
+    background-size: 100% 100%;
+}
+.item4{
+    height: 50%;
+    width: 50%;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    text-align: center;
+}
+.item4 h1{
+    font-size: 50px;
+    /* padding: 0 50px; */
+}
+.item4 p{
+    margin-top: 20px;
+    padding: 2px;
+    line-height: 30px;
+}
+.item4 button{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    width: 30%;
+    padding: 10px 30px;
+}
+@media only screen and (max-width: 600px) {
+    .item1{
+        height: 25%;
+    }
+    .item3{
+        top: 12%;
+        width: 64%;
+    }
+    .item4 h1{
+        font-size: 40px;
+        
+    }
+    .item4{
+        width: 62%;
+        top: 85%;
+        right: 25%;
+    }
+    .item4 button{
+        margin-top: 10px;
+        font-size: 12px;
+        width: 50%;
+        padding: 10px 20px;
+    }
+}
